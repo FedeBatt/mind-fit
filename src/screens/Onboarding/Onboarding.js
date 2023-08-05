@@ -6,7 +6,7 @@ import Text from "../../components/Text/Text";
 
 import Styles from "./Onboarding.styles";
 import { TEXT_TYPE } from "../../components/Text/Text.constants";
-import { ROUTE_NAMES } from "../../constants/Routes";
+import { ROUTE_NAMES } from "../../constants/routes";
 import { BUTTON_TYPE } from "../../components/Button/Button.constants";
 
 const Onboarding = ({ navigation }) => {
@@ -26,7 +26,7 @@ const Onboarding = ({ navigation }) => {
           </Text>
           <Button
             type={BUTTON_TYPE.APP_BUTTON}
-            onPress={() => navigation.navigate(ROUTE_NAMES.MainTab)}
+            onPress={() => navigation.navigate(ROUTE_NAMES.MAIN_TAB )}
           >
             comencemos
           </Button>

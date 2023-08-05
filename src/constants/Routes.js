@@ -1,7 +1,13 @@
 export const ROUTE_NAMES = {
-    Home: 'Home',
-    MainTab: 'MainTab',
-    Onboarding: 'Onboarding',
-    Playground: 'Playground',
-    Location: 'Location'
-}
+  MAIN_TAB: "MAIN_TAB",
+  HOME: "HOME",
+  HOME_STACK: "HOME_STACK",
+  STACK_GROUP: "STACK_GROUP",
+  ONBOARDING: "ONBOARDING",
+  PLAYGROUND: "PLAYGROUND",
+  PLAYGROUND_STACK: "PLAYGROUND_STACK",
+  LOCATION: "LOCATION",
+  LOCATION_STACK: "LOCATION_STACK",
+  FAMILY_MEMO: "FAMILY_MEMO",
+  FAMILY_INFO: "FAMILY_INFO",
+};

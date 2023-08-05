@@ -5,7 +5,12 @@ export default StyleSheet.create({
   wrapper: {
     flexDirection: "row",
     alignItems: "center",
+  },
+  backButton: {
     marginLeft: theme.sizes[8],
   },
-  backButton: { marginRight: 4 }
+  text:(canGoBack) => ( {
+    marginLeft: canGoBack ? theme.sizes[8] : 0,
+    textTransform: 'capitalize'
+  })
 });

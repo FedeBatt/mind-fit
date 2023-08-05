@@ -20,6 +20,7 @@ export default StyleSheet.create({
   },
   ghost: {
     borderWidth: 0.5,
+    borderColor: theme.colors.primary[40],
     backgroundColor: "transparent",
     ...base,
   },
@@ -29,7 +30,7 @@ export default StyleSheet.create({
   appButton: {
     alignItems: "center",
     backgroundColor: theme.colors.primary[40],
-    bottom: 0,
+    bottom: 20,
     borderRadius: theme.sizes[6],
     height: theme.sizes[11],
     justifyContent: "center",
