@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
-import { Text, TouchableOpacity } from "react-native";
+import { TouchableOpacity } from "react-native";
 import Style from "./Button.styles";
 import { BUTTON_TYPE } from "./Button.constants";
+import Text from "../Text/Text";
+import { TEXT_TYPE } from "../Text/Text.constants";
 
 const Button = ({
   children,
@@ -18,7 +20,7 @@ const Button = ({
       style={Style[type]}
       {...rest}
     >
-      <Text style={Style.text}>{children}</Text>
+      <Text type={TEXT_TYPE.CAPTION} >{children}</Text>
     </TouchableOpacity>
   );
 };

@@ -3,4 +3,5 @@ export const BUTTON_TYPE = {
     SECONDARY: 'secondary',
     GHOST: 'ghost',
     LINK: 'link',
+    APP_BUTTON: 'appButton'
 }

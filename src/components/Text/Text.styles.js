@@ -15,8 +15,10 @@ export default StyleSheet.create({
     fontWeight: "400",
   },
   caption: {
-    fontSize: 14,
-    fontWeight: "400",
+    fontSize: 16,
+    fontWeight: "600",
+    textTransform: 'uppercase',
+    color: theme.colors.basic.white100
   },
   label: {
     fontSize: 14,

@@ -1,11 +1,22 @@
-import { ScrollView, Text, View } from "react-native";
+import { View } from "react-native";
 import Styles from "./Home.styles";
+import Container from "../../components/Container/Container";
+import Text from "../../components/Text/Text";
+import { TEXT_TYPE } from "../../components/Text/Text.constants";
 
-const Home = () => {
+const Home = ({ navigation }) => {
   return (
-    <View style={Styles.container}>
-      <Text>Home Screen</Text>
-    </View>
+    <Container>
+      <View style={Styles.container}>
+        <Text style={{ marginBottom: 24 }} type={TEXT_TYPE.TITLE}>
+          Hola Victor !
+        </Text>
+        <Text type={TEXT_TYPE.SUBTITLE}>
+          Momentos
+        </Text>
+        <Text type={TEXT_TYPE.SUBTITLE}>Juegos</Text>
+      </View>
+    </Container>
   );
 };
 
