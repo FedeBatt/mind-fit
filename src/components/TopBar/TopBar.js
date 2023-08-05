@@ -15,7 +15,7 @@ const TopBar = ({ navigation, route }) => {
       route.name === ROUTE_NAMES.LOCATION ||
       route.name === ROUTE_NAMES.PLAYGROUND
     ) {
-      return true;
+      return false;
     } else {
       return true;
     }
