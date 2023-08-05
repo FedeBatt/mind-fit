@@ -1,20 +1,20 @@
 import { StyleSheet } from "react-native";
+import theme from "../../theme";
 
 export default StyleSheet.create({
   container: {
-    width: 320,
-    marginRight: 20,
-    borderWidth: 0.5,
-    borderRadius: 8,
+    backgroundColor: theme.colors.background.white99,
+    borderRadius: 12,
     padding: 12,
-    flexDirection: 'row',
-    justifyContent: 'space-between'
+    flexDirection: "row",
+    justifyContent: "space-between",
   },
   imgWrapper: {
-    backgroundColor: 'red',
-    width: '32%',
+    backgroundColor: "red",
+    width: "32%",
+    height: 100,
   },
   infoWrapper: {
-    width: '65%',
-  }
+    width: "65%",
+  },
 });
