@@ -2,17 +2,17 @@ import React from "react";
 import { TouchableOpacity, View } from "react-native";
 
 import Styles from "./Card.styles";
-import Text from "../Text/Text";
-import { TEXT_TYPE } from "../Text/Text.constants";
+import Text from "../../../../components/Text/Text";
+import { TEXT_TYPE } from "../../../../components/Text/Text.constants";
 import { useNavigation } from "@react-navigation/native";
-import { ROUTE_NAMES } from "../../constants/routes";
+import { ROUTES } from "../../../../constants/routes";
 
 const Card = ({ data }) => {
   const { id, name, lastName, role, info } = data?.item;
   const navigation = useNavigation();
 
   const onNavigate = () => {
-    navigation.navigate(ROUTE_NAMES.FAMILY_INFO, data.item)
+    navigation.navigate(ROUTES.FAMILY_INFO, data.item)
   }
 
   return (

@@ -1,4 +1,4 @@
-export const ROUTE_NAMES = {
+export const ROUTES = {
   MAIN_TAB: "MAIN_TAB",
   HOME: "HOME",
   HOME_STACK: "HOME_STACK",
@@ -11,3 +11,11 @@ export const ROUTE_NAMES = {
   FAMILY_MEMO: "FAMILY_MEMO",
   FAMILY_INFO: "FAMILY_INFO",
 };
+
+export const ROUTE_NAMES = {
+  HOME: "Inicio",
+  PLAYGROUND: "Juegos",
+  LOCATION: "Ubicación",
+  FAMILY_MEMO: "Mi Familia",
+  FAMILY_INFO: "Familiar",
+}

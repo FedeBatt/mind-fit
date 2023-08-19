@@ -3,7 +3,7 @@ import { FlatList, View } from "react-native";
 import Text from "../../components/Text/Text";
 import Container from "../../components/Container/Container";
 import { TEXT_TYPE } from "../../components/Text/Text.constants";
-import Card from "../../components/Card/Card";
+import Card from "./components/Card/Card";
 
 const FamilyMemo = ({ navigation }) => {
   const DATA = [
